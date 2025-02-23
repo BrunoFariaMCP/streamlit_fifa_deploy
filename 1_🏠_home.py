@@ -4,6 +4,7 @@ import streamlit as st
 import pandas as pd
 import webbrowser
 from datetime import datetime
+import openai
 
 
 if "data" not in st.session_state:
